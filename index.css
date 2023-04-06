@@ -1,0 +1,55 @@
+body {
+    background-color: #1C1C1C;
+    color: white;
+    margin: 0;
+}
+
+.grand {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#green {
+    color: #00ff00;
+}
+#light-green {
+    margin-top: 2px;
+    color: #00ff00be;
+}
+
+.container {
+    display: flex;
+    /* text-align: left; */
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid;
+    border-image: linear-gradient(to bottom, #da0a0a, #00ff00) 1;
+
+    height: fit-content;
+    max-width: 678px;
+}
+
+.btn {
+    background-color: rgba(44, 170, 27, 0.8);
+    border:  none;
+    border-radius: 4px;
+    color: white;
+    padding: 5px 8px;
+}
+
+.pass {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.pass p{
+   background-color: #494747;
+   min-width: 150px;
+   min-height: 16px;
+   padding: 8px;
+   border-radius: 8px;
+
+}
